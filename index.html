@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Conseils CR finaux</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./dist/reset.css" />
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+
+## Présentation sur les rédactions finales.
+
+<aside class="notes"><p>Mon objectif serait de souligner les difficultés inattendues de la rédaction finale par l&#39;expérience et d&#39;ajouté quelques conseils pratiques.</p>
+<p>Présenter mon CR</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+### Mettre en valeur le travail de tout le quadrimestre
+
+<aside class="notes"><p>Ne pas oublier les articulations produites au début de la recherche qui pourrait toujours être pertinentes.</p>
+</aside></script></section><section ><section data-markdown><script type="text/template">
+
+### Toujours de manière ancrée
+
+</script></section><section data-markdown><script type="text/template">
+
+-   Ne pas perdre de vue l'objectif de ces contraintes, tenter de produire un discours fidèle à l'expérience des acteurs rencontrés.
+
+</script></section><section data-markdown><script type="text/template">
+
+-   Ne pas se laisser emporter par la narration et tricher avec le matériau.
+
+
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+### Faire attention à toutes les consignes de rédaction
+
+</script></section><section data-markdown><script type="text/template">
+
+<img src="https://i.imgur.com/SXTajs0.png">
+
+
+
+<aside class="notes"><p>Exercice d&#39;écriture nouveau et déstabilisant qui demande plus de travail (et de patience) que d&#39;habitude.</p>
+</aside></script></section></section><section  data-markdown><script type="text/template">
+### Mettre en forme la matière déjà présente plutôt que de se laisser emporter
+
+<aside class="notes"><p>Réalisation que nous avions ajouté des éléments de manière implicite dans notre compte-rendu sans que ceux-ci ne soient passés par les étapes d&#39;étiquetage et d&#39;articulation.</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+
+### Rester lisible malgré les contraintes.
+
+-   Inclure des exemples dès que possible et maintenir un fil narratif.
+
+</script></section><section  data-markdown><script type="text/template">
+### Mettre de côté du temps pour les relectures
+
+<aside class="notes"><ul>
+<li>  Travail d&#39;équilibre entre plusieurs contraintes qui peut toujours être ajusté et période de fin d&#39;année chargée par d&#39;autres obligations. -   Profiter des forces de chacun pour identifier les problèmes (orthographe, sens, interprétations des données collectées)</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"></script></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
